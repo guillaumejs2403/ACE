@@ -1,0 +1,5 @@
+!**/__pycache__/
+*.pyc
+pretrained_models
+DiVE-models
+DiVE-DDPM-comp

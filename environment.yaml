@@ -1,0 +1,22 @@
+name: ACE
+channels:
+    - pytorch
+    - anaconda
+    - conda-forge
+dependencies:
+    - python=3.8.11
+    - pip
+    - numpy
+    - cudatoolkit=10.2
+    - pytorch=1.9.1
+    - torchvision
+    - matplotlib
+    - mpi4py
+    - pyyaml
+    - pandas
+    - h5py
+    - scipy
+    - git-lfs
+    - pip:
+        - tqdm
+        - blobfile
