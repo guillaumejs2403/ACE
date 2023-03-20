@@ -2,7 +2,7 @@
 
 # ACE:
 
-This is the codebase for the CVPR 2023 paper [Adversarial Counterfactual Visual Explanations](https://www.google.com).
+This is the codebase for the CVPR 2023 paper [Adversarial Counterfactual Visual Explanations](http://arxiv.org/abs/2303.09962).
 
 ## Environment
 
