@@ -18,10 +18,10 @@ python main.py $MODEL_FLAGS $SAMPLE_FLAGS --gpu $GPU \
     --output_path $OUTPUT_PATH \
     --exp_name $EXPNAME \
     --attack_method PGD \
-    --attack_iterations 25 \
+    --attack_iterations 100 \
     --attack_joint True \
     --dist_l1 0.001 \
-    --timestep_respacing 100 \
+    --timestep_respacing 25 \
     --sampling_time_fraction 0.2 \
     --sampling_stochastic True \
     --sampling_inpaint 0.15 \
