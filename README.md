@@ -31,7 +31,7 @@ Download Link:
     - Diffusion Model: download the `256x256 diffusion (not class conditional)` DDPM model through the `openai/guided-diffusion` repo. [Link](https://github.com/openai/guided-diffusion).
     - Classifier: we used the pretrained models given by PyTorch.
 * Evaluation Models
-    - CelebA Oracle: [Link](https://drive.google.com/file/d/1Ua9gK1BiUTG4wIkhpBpWyn6B-OCQKKMx/view?usp=sharing)
+    - CelebA Oracle: [Link](https://huggingface.co/guillaumejs2403/DiME)
     - CelebA HQ Oracle: Please download `checkpoints_oracle_attribute.tar.gz`. The classifier is the `celebamaskhq/checkpoint.tar`. [Link](https://github.com/valeoai/STEEX/releases)
     - VGGFace2 Model: Please download the `resnet50_ft` model. [Link](https://github.com/cydonia999/VGGFace2-pytorch).
     - SiamSiam Model: Please download the ResNet-50 model trained with a *batch size of 256*. [Link](https://github.com/facebookresearch/simsiam#models-and-logs)
