@@ -20,13 +20,12 @@ To use ACE, you must download the pretrained DDPM models. Please extract them to
 Download Link:
 
 * CelebA Models
-    - Classifier: [Link](https://drive.google.com/file/d/1OqjWns4NSu6AiKkOnpUOjUHzA8sQlaOA/view?usp=sharing)
-    - Diffusion Model: [Link](https://drive.google.com/file/d/17iB1aL4xctDukov-OIDuKqZdQ9YB1ZQz/view?usp=sharing)
+    - Classifier and diffusion model: [Link](https://huggingface.co/guillaumejs2403/DiME)
 * CelebaA HQ
-    - Diffusion Model: [Link](https://drive.google.com/file/d/1epi7dM5MOwYtxrVjybxkBUEmIzZD2Q_V/view?usp=sharing)
+    - Diffusion Model: [Link](https://huggingface.co/guillaumejs2403/ACE)
     - Classifier: Please download `checkpoints_decision_densenet.tar.gz `. The classifier is the `celebamaskhq/checkpoint.tar`. [Link](https://github.com/valeoai/STEEX/releases)
 * BDDOIA/100k
-    - Diffusion Model: :warning: This DDPM can only generate images from a warm-up stage. [Link](https://drive.google.com/file/d/1RicHrltVjA5ou7qks7CMkNZRrnw5Pp2q/view?usp=sharing)
+    - Diffusion Model: :warning: This DDPM can only generate images from a warm-up stage. [Link](https://huggingface.co/guillaumejs2403/ACE)
     - Classifier: Please download `checkpoints_decision_densenet.tar.gz `. The classifier is the `bdd/checkpoint.tar`. [Link](https://github.com/valeoai/STEEX/releases)
 * ImageNet: 
     - Diffusion Model: download the `256x256 diffusion (not class conditional)` DDPM model through the `openai/guided-diffusion` repo. [Link](https://github.com/openai/guided-diffusion).
